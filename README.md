@@ -28,9 +28,9 @@ Three ways to represent a theorem are compared:
 
 | Feature Set | Dim | Model | Spearman ρ | LogRMSE | R² | Q1Q4 Acc |
 |---|---|---|---|---|---|---|
-| B · Bag-of-tactics† | 53 | Gradient Boosting | **0.764** | 0.316 | **0.682** | **90.5%** |
+| B · Bag-of-tactics† | 53 | Gradient Boosting | **0.764** | **0.316** | **0.682** | **90.5%** |
 | D · Syn + BoT† | 59 | Gradient Boosting | 0.740 | 0.330 | 0.654 | 90.5% |
-| I · Kitchen sink† | 1100 | Gradient Boosting | 0.744 | **0.334** | 0.646 | 84.9% |
+| I · Kitchen sink† | 1100 | Gradient Boosting | 0.744 | 0.334 | 0.646 | 84.9% |
 | F · Full† | 1083 | Gradient Boosting | 0.740 | 0.335 | 0.642 | 87.3% |
 | H · Syn + Domain + Dep | 23 | Random Forest | 0.423 | 0.496 | 0.219 | 66.7% |
 | E · Syn + TF-IDF | 1030 | Gradient Boosting | 0.366 | 0.511 | 0.169 | 65.1% |
